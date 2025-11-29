@@ -67,7 +67,7 @@ struct ContentView: View {
                                     sheetIsVisible = false
                                     sheetAction = .add
                                 }
-                                .disabled(isAddButtonDisabled()) //Usa la funcion para la validacion
+                                .disabled(isAddButtonDisabled()) //Usa la funcion para la validacion y Como medida extra; Previene el error
                             }
                         }
                 }
